@@ -1,0 +1,66 @@
+1.	gauss elimination with pivoting
+
+	LAPACK:
+	GSL:
+	Numpy/Scipy:
+
+2.	jacobi method
+
+	LAPACK:
+	GSL:
+	Numpy/Scipy:
+
+3.	gauss seidel method
+
+	LAPACK:
+	GSL:
+	Numpy/Scipy:
+
+4.	relaxation method
+
+	LAPACK:
+	GSL:		gsl_splinalg_itersolve_gmres
+	Numpy/Scipy:	scipy.sparse.linalg.gmres
+
+5.	conjugate gradient
+
+	LAPACK:
+	GSL:
+	Numpy/Scipy:	scipy.sparse.linalg.cu
+
+6.	LU decomposition
+
+	LAPACK:		dgetrf
+	GSL:		gsl_linalg_LU_decomp
+	Numpy/Scipy:	scipy.linalg.lu
+
+7.	QR decomposition
+
+	LAPACK:		dgeqrf
+	GSL:		gsl_linalg_QR_decomp
+	Numpy/Scipy:	numpy.linalg.qr
+
+8.	singular value decomposition
+
+	LAPACK:		dgesvd
+	GSL:		gsl_linalg_SV_decomp
+	Numpy/Scipy:	numpy.linalg.svd
+
+9.	eigen value of real symmetric matrix
+
+	LAPACK:
+	GSL:		gsl_eigen_symm
+	Numpy/Scipy:	numpy.linalg.eigh
+
+10.	eigen value of complex hermitian matrix
+
+	LAPACK:		cheev
+	GSL:		gsl_eigen_herm
+	Numpy/Scipy:	numpy.linalg.eigh
+
+11.	eigen value of general (real as well complex) matrix:
+
+	LAPACK:		dgeev
+	GSL:
+	Numpy/Scipy:	numpy.linalg.eivals
+___________________________________________________________________________________
